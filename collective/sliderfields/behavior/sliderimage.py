@@ -10,6 +10,7 @@ from z3c.relationfield.schema import RelationChoice, RelationList
 from plone.formwidget.contenttree import ObjPathSourceBinder
 from collective.sliderfields.interfaces import ISliderFieldsEnabled
 from collective.sliderfields import MessageFactory as _
+from plone.app.dexterity import MessageFactory as _pad
 from Acquisition import aq_base
 
 class ISliderImage(form.Schema, ISliderFieldsEnabled):
@@ -17,6 +18,7 @@ class ISliderImage(form.Schema, ISliderFieldsEnabled):
        Marker/Form interface for Slider Image
     """
     form.fieldset('settings',
+        label=_pad('Settings'),
         fields=['slider_image', 'slider_title', 'slider_description']
     )
 
