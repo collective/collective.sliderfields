@@ -4,9 +4,9 @@ README for collective.sliderfields
 This product simply add a Dexterity Behavior and Archetypes SchemaExtender
 components which provides these 3 fields:
 
- * Slider Image
- * Slider Title
- * Slider Description
+* Slider Image
+* Slider Title
+* Slider Description
 
 It does not do anything more than that. Purpose of this product is to aid in
 development of an easy to use custom slider related addons in Plone without
