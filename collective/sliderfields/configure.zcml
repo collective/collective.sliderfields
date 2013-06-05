@@ -18,4 +18,21 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <class class="Products.ATContentTypes.content.document.ATDocument">
+       <implements interface="collective.sliderfields.interfaces.ISliderFieldsEnabled"/>
+   </class>
+
+    <class class="Products.ATContentTypes.content.newsitem.ATNewsItem">
+       <implements interface="collective.sliderfields.interfaces.ISliderFieldsEnabled"/>
+    </class>
+
+    <class class="Products.ATContentTypes.content.event.ATEvent">
+       <implements interface="collective.sliderfields.interfaces.ISliderFieldsEnabled"/>
+    </class>
+
+    <class class="Products.ATContentTypes.content.link.ATLink">
+       <implements interface="collective.sliderfields.interfaces.ISliderFieldsEnabled"/>
+    </class>
+
+
 </configure>
