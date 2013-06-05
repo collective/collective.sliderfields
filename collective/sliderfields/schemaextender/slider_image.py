@@ -60,14 +60,13 @@ class SliderImage(grok.Adapter):
             storage = atapi.AttributeStorage(),
             schemata='settings',
             widget = atapi.StringField._properties['widget'](
-                title=_(u'slider_description_label', default=u'Slider Description'),
+                label=_(u'slider_description_label', default=u'Slider Description'),
                 description=_(u'slider_description_description',
                     default=(u'If set, the slider will use this description instead'
                     ' of the content description')
                 ),
             )
         )
-
     ]
 
     def __init__(self, context):
