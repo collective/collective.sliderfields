@@ -6,4 +6,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <plone:behavior
+        title="Slider Image"
+        description="Add slider image fields"
+        provides=".sliderimage.ISliderImage"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".sliderimage.ISliderImage"
+        />
+
+
 </configure>
