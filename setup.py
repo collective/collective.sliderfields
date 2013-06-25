@@ -26,7 +26,7 @@ setup(name='collective.sliderfields',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'plone.app.dexterity',
+          'plone.app.dexterity [grok, relations]',
           'plone.namedfile [blobs]',
           'collective.grok',
           'plone.app.referenceablebehavior',
